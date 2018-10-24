@@ -1,8 +1,13 @@
+const UserModel = require('./UserModel');
+
 exports.handler = (event, context, callback) => {
     // TODO implement
-    const response = {
-        statusCode: 200,
-        body: JSON.stringify('Launched through Jenkins Second attempt')
-    };
-    callback(null,response);
+    UserModel.getUsers(function(d){
+        const response = {
+            statusCode: 200,
+            body: d
+        };
+        callback(null,response);
+    })
+    
 };
