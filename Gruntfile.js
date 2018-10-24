@@ -16,6 +16,13 @@ grunt.initConfig({
    },
    lambda_package: {
       default: {
+
+   },
+   copy:{
+        dist:{
+            src:'dist/*.zip',
+            dest:'dist/deployable.zip'
+        }
    }
    }
 });
