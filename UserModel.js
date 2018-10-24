@@ -10,7 +10,7 @@ module.exports = {
             TableName:config.DB.TBL_NAME        
         };
         
-        docClient.scan(param,function(err, data){
+        docClient.scan(params,function(err, data){
             if(err)
             {
                 callback(err);
