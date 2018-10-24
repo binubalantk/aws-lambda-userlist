@@ -15,15 +15,11 @@ grunt.initConfig({
       }
    },
    lambda_package: {
-      default: {
-
-   },
-   copy:{
-        dist:{
-            src:'dist/*.zip',
-            dest:'dist/deployable.zip'
-        }
-   }
+        default: {
+            options: {
+                include_time:false
+            }
+    }
    }
 });
 grunt.registerTask('deploy', ['lambda_package', 'lambda_deploy'])
