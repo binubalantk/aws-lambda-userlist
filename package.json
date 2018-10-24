@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/binubalantk/aws-lambda-userlist/issues"
   },
-  "homepage": "https://github.com/binubalantk/aws-lambda-userlist#readme"
+  "homepage": "https://github.com/binubalantk/aws-lambda-userlist#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "aws-sdk": "^2.341.0",
+    "grunt": "^1.0.3",
+    "grunt-aws-lambda": "^0.13.0"
+  }
 }
