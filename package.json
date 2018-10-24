@@ -1,0 +1,19 @@
+{
+  "name": "aws-lambda-userlist",
+  "version": "1.0.0",
+  "description": "AWS lambda function to feed API console with user list from DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binubalantk/aws-lambda-userlist.git"
+  },
+  "author": "Binu Balan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binubalantk/aws-lambda-userlist/issues"
+  },
+  "homepage": "https://github.com/binubalantk/aws-lambda-userlist#readme"
+}
